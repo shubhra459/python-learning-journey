@@ -1,0 +1,5 @@
+text = input("enter here something:")
+separator = input("eneter tour separator:")
+number = int(input("enter your number:"))
+s = text.rsplit(separator,number)
+print (s)
